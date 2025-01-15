@@ -23,7 +23,7 @@ router.post('/', (req, res) => {
     const newTodo = {
         id: todos.length + 1,
         title,
-        completed: true
+        completed: false
     };
     todos.push(newTodo);
 
